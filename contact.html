@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EMP Network — Contact</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="wrap">
+      <header class="nav">
+        <a class="brand" href="index.html"><div class="brand-badge"></div>EMP <span>Network</span></a>
+        <nav class="menu">
+          <a class="link" data-nav href="index.html">Home</a>
+          <a class="link" data-nav href="shows.html">Shows</a>
+          <a class="link" data-nav href="roster.html">Roster</a>
+          <a class="link" data-nav href="highlights.html">Highlights</a>
+          <a class="btn" data-nav href="contact.html">Contact</a>
+        </nav>
+      </header>
+    </div>
+  </div>
+
+  <section class="hero" style="padding:54px 0 24px;">
+    <div class="wrap">
+      <p class="kicker">Bookings / Collabs</p>
+      <h1>Contact</h1>
+      <p class="sub">Use this for submissions, match ideas, or partnerships.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="grid">
+        <div class="card">
+          <h3>Message Form (Demo)</h3>
+          <p class="small">This works as a demo right now. I can connect it to Formspree/Netlify Forms for real submissions.</p>
+          <div class="hr"></div>
+          <form class="form" onsubmit="event.preventDefault(); alert('Sent! (Demo)');">
+            <label>
+              Name
+              <input required placeholder="Your name" />
+            </label>
+            <label>
+              Email
+              <input required type="email" placeholder="you@email.com" />
+            </label>
+            <label>
+              Message
+              <textarea required rows="5" placeholder="What do you need?"></textarea>
+            </label>
+            <button class="btn" type="submit">Send</button>
+          </form>
+        </div>
+
+        <div class="card">
+          <h3>Quick Links</h3>
+          <p class="small">Drop your official links here.</p>
+          <div class="hr"></div>
+          <p>📺 YouTube: <span class="small">(add link)</span></p>
+          <p>📸 Instagram: <span class="small">(add link)</span></p>
+          <p>🐦 X/Twitter: <span class="small">(add link)</span></p>
+          <p>🎮 2K: <span class="small">(add link)</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>© <span id="year"></span> EMP Network.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
